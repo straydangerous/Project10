@@ -1,0 +1,4 @@
+@mixin accent($bg-color: var(--color-accent), $text-color: var(--color-white)) {
+  background-color: $bg-color;
+  color: $text-color;
+}

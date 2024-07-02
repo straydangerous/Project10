@@ -1,0 +1,27 @@
+.footer {
+  @include accent();
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  &__name {
+    color: var(--color-white);
+    margin: 0 0 20px;
+    font-size: 21px;
+  }
+
+  &__copyright {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 750px) {
+    .footer {
+      padding-bottom: 25px;
+      padding-top: 25px;
+    }
+    .footer__name {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}
